@@ -1,0 +1,17 @@
+{
+    "name": "agurzhyi/design-patterns",
+    "description": "Design patterns",
+    "authors": [
+        {
+            "name": "Gurzhyi, Andrii",
+            "email": "gurzhiyandrey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pattern\\": "src/Pattern"
+        }
+    }
+}
