@@ -1,4 +1,8 @@
 <?php
+if (php_sapi_name() !== "cli") {
+    throw new \Exception('Only CLI mode.');
+}
+
 require __DIR__ . '/vendor/autoload.php';
 
 // Adapter
